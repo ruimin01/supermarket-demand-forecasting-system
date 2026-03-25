@@ -1,0 +1,12 @@
+flask
+flask-cors
+pymysql
+python-dotenv
+pandas
+numpy
+tensorflow
+xgboost
+scikit-learn
+joblib
+cryptography
+matplotlib

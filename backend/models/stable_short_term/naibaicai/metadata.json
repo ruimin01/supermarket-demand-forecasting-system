@@ -1,0 +1,36 @@
+{
+  "stock_code": "102900011008164",
+  "model_type": "stable_short_term",
+  "time_steps": 7,
+  "future_days": 7,
+  "gru_features": [
+    "Price",
+    "Wholesale Price (RMB/kg)",
+    "Discount",
+    "Loss Rate (%)",
+    "weekday",
+    "month",
+    "is_weekend",
+    "lag_1",
+    "lag_7",
+    "lag_14",
+    "rolling_mean_7"
+  ],
+  "xgb_features": [
+    "weekday",
+    "month",
+    "is_weekend",
+    "lag_1",
+    "lag_7",
+    "lag_14",
+    "rolling_mean_7"
+  ],
+  "target": "Sales",
+  "window_start": "2022-07-01",
+  "window_end": "2023-06-30",
+  "train_end": "2023-06-23",
+  "forecast_start": "2023-07-01",
+  "mae": 1.2685966082605824,
+  "rmse": 1.967506520458711,
+  "smape": 11.836350173906473
+}
